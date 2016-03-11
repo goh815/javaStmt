@@ -19,7 +19,7 @@ public class Tax {
 	 System.out.println("연봉을 입력하세요");
 	 input  = scanner.nextInt();
 	 
-	 sum = (int) (input*0.10);
+	 sum = (int) (input*0.10)/12;
 	 
 	System.out.println("연봉 "+input+"원을 받으시는 "+name+" 님께서");
 	System.out.println("이번닫 납부할 세금은  "+sum+"만원입니다.");

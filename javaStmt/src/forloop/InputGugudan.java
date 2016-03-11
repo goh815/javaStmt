@@ -17,11 +17,16 @@ public class InputGugudan {
 		System.out.println("숫자를 입력하시오.");
 		input = scanner.nextInt();
 		
-		for (int i = input ; i <= input ; i++) {
+			if (input <=0) {
+				System.out.println("종료");	
+			}else {
+				
+				for (int i = input ; i <= input ; i++) {
 			
-			for (int j =1; j <=9 ; j++) {
-			hap = input * j;
-			System.out.println(input+" * "+j+" = "+ hap );
+				for (int j =1; j <=9 ; j++) {
+				hap = input * j;
+				System.out.println(input+" * "+j+" = "+ hap );
+				}
 			}
 		}
 		
