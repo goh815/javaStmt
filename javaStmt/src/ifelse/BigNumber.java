@@ -18,7 +18,7 @@ public class BigNumber {
 		}else {
 			
 		}
-		System.out.println("");
+		System.out.println("가장 큰 수는 "+big+" 입니다");
 	}
 
 }

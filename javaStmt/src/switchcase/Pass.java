@@ -1,8 +1,6 @@
-package ifelse;
-
+package switchcase;
 
 /**
- * @file Pass.java
  * @author USER
  * @date 2016. 3. 11.
  * @story 과목 점수를 입력하면 총점과 평균이 나오고 
