@@ -18,7 +18,8 @@ public class InputGugudan {
 		input = scanner.nextInt();
 		
 			if (input <=0) {
-				System.out.println("종료");	
+				System.out.println("종료");
+				return;//이 메소드를 종료시켜라.
 			}else {
 				
 				for (int i = input ; i <= input ; i++) {

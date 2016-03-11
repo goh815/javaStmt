@@ -16,7 +16,7 @@ public class InputSum {
 		System.out.println("숫자 입력");
 		input = scanner.nextInt();
 		
-		for (int i = 1; i <=input; i++) {
+		for (int i = 1; i <= input; i++) {
 			sum +=i; 
 		}
 		

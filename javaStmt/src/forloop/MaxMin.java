@@ -24,10 +24,21 @@ public class MaxMin {
 		
 		Scanner scanner = new Scanner(System.in);
 		int[] arr = new int[5];
-		int max = 0, min = 0;
+		int max = 0 , min = 0 ;
 		
 		for (int i = 0; i < arr.length; i++) {
+			
+			System.out.println("숫자를 입력하시오");
 			arr[i] = scanner.nextInt();
+		}
+		for (int j = 0; j < arr.length; j++) {
+			
+			if(arr[j] > max){
+			max = arr[j];
+			}
+			if(arr[j] < min){
+			min = arr[j];
+			}
 		}
 		System.out.println("최고점은 "+max+"점이고"
 				+"최저점은 "+min+"점 입니다.");

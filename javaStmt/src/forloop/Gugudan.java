@@ -14,7 +14,7 @@ public class Gugudan {
 		
 			for (int i = 1; i <= 9; i++) {
 				System.out.println();
-				for (int j = 2; j <9; ++j){
+				for (int j = 2; j<=9; ++j){
 					hap = i * j;
 				System.out.print("  "+ j +" * "+ i +" = "+hap+"  " );
 				
