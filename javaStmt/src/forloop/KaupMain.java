@@ -17,21 +17,21 @@ public class KaupMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Kaup k = new Kaup(); 
+		Kaup2 k = new Kaup2(); 
 		int Kaup = 0;
 		String result ="", name ="";
 		double cm = 0.0, kg = 0.0;
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÀÌ¸§ÀÔ·Â");
+		System.out.println("ì´ë¦„ì…ë ¥");
 		name = scanner.next();
-		System.out.println("ÀÌ¸§Àº"+name);
+		System.out.println("ì´ë¦„ì€"+name);
 		
-		System.out.println("Å° ÀÔ·Â");
+		System.out.println("í‚¤ ì…ë ¥");
 		cm = scanner.nextInt(); 
-		System.out.println("¸ö¹«°Ô ÀÔ·Â");
+		System.out.println("ëª¸ë¬´ê²Œ ì…ë ¥");
 		kg = scanner.nextInt();
-		result = k.getKaup(cm, kg);
+		//result = k.getKaup(cm, kg);
 
 	}
 

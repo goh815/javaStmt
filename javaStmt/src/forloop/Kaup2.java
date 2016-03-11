@@ -19,7 +19,7 @@ import java.util.Scanner;
  *이름과 키와 몸무게를 입력하면
  *홍길동님은 비만입니다. 라고 출력하는 프로그램 작성하시오
  */
-public class Kaup {
+public class Kaup2 {
 	/* public static void main(String[] args){
 		System.out.println("홍길동님은 비만입니다.");
 		
@@ -43,7 +43,7 @@ public class Kaup {
 	
 
 	private String getKaup(double cm, double kg) {
-		getKaup();
+		
 		int Kaup;
 		String result;
 		Kaup = (int) ((cm/(kg*cm))*10000);

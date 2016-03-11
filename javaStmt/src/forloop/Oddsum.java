@@ -1,16 +1,30 @@
 package forloop;
 /*
 *file :  Oddsum.java
-*@author ¹®°íÈÆ
+*@author ë¬¸ê³ í›ˆ
 *@date 2016. 3. 10
-*@story 1ºÎÅÍ 10±îÁö È¦¼öÀÇ ÇÕ
+*@story 1ë¶€í„° 10ê¹Œì§€ í™€ìˆ˜ì˜ í•©
 *
 */
 public class Oddsum {
 	public static void main(String[] args){
-		for(int i = 0; i < 10; i++){
 		
+		
+			int sum=0, i =0;
+			System.out.println("1ë²ˆì§¸ ë°©ë²•");
+			for (i = 1; i <= 10; i+=2) {
+				 sum +=i;
+			}
+			System.out.println("1ë¶€í„° 10ê¹Œì§€ í™€ìˆ˜ì˜ í•© " +sum);
+			System.out.println("2ë²ˆì§¸ ë°©ë²•");
+			for (i = 0; i < 10; i++) {
+				
+				if (i % 2 == 1) {
+					sum += i;
+				}
+				
+			}
+			System.out.println("1ë¶€í„° 10ê¹Œì§€ í™€ìˆ˜ì˜ í•© " +sum);
 		}
-	}
 
 }
